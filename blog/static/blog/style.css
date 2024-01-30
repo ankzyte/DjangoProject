@@ -1,0 +1,244 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #FBF9FB;
+}
+
+header{
+    width: 100%;
+    height:3rem;
+    background-color: #546E81;
+}
+
+.navbar{
+    width:55%;
+    height: 100%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    padding:10px;
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+    font-size:18px;
+    margin-right:10px;
+}
+
+.center-container{
+    width: 55%;
+    height: auto;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.posts{
+    width:63%;
+    height: auto;
+}
+
+.posts .post{
+    width:100%;
+    border:1px solid lightgray;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:5px;
+    padding:10px 12px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    gap:12px;
+}
+
+.post .content-container{
+    flex:1;
+}
+
+.post .avatar{
+    border-radius: 50%;
+    overflow: hidden;
+    width:50px;
+    height: 50px;
+}
+.post .avatar img{
+    width:50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+.post .header{   
+    border-bottom:1px solid lightgray;
+}
+
+.post a{
+    color:#6D92D1;
+    text-decoration: none;
+}
+
+.post-main a{
+    color:black;
+}
+
+.post-main a:hover{
+    color:blue;
+}
+.header span{
+    font-size: 12px;
+    margin-left:5px;
+}
+
+.post .post-main h2{
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
+.sidebar{
+    width:27%;    
+    border:1px solid lightgray;   
+    margin-top:20px;
+    margin-left:20px;
+    padding:0 18px;
+    padding-bottom: 18px;
+    background-color: white;
+    height: 280px;
+}
+
+.sidebar-items{
+    margin-top:20px;
+}
+.sidebar-items li{
+    list-style-type: none;
+    display:block;
+    border:1px solid lightgray;
+    padding:10px; 
+}
+
+.form-field{
+    border:1px solid lightgray;
+    padding:15px 15px;
+    padding-right: 25px;
+    width:63%;
+    max-height: auto;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;  
+}
+
+.form-field legend{
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+    border-bottom:1px solid lightgray;
+    font-size:22px;
+}
+
+.form-field p{
+    margin-bottom:20px;
+}
+
+.form-field ul{
+   margin-top:-10px;
+
+}
+.form-field input{
+    width:98%;
+    outline-color: skyblue;
+    font-size: 14px;
+    padding:8px;
+}
+
+.form-field button{
+    font-size:14px;
+    padding:8px;
+    background-color: white;
+    color:skyblue;
+    border:1px solid skyblue;
+}
+
+.form-field span{
+    font-size: 14px;
+    color:grey;
+}
+
+.form-field li{
+    font-size: 14px;
+    color:grey;
+}
+
+.existing-user{
+    border-top:1px solid lighgray;
+    margin-top:20px;
+}
+
+.existing-user a{
+    text-decoration: none;
+}
+
+.message-box{
+    display:flex;
+    flex-direction:column;
+    width:63%;
+}
+.alert{
+    padding:15px 15px;
+    padding-right: 25px;
+    width:63%;
+    background-color:lightgreen;
+    color:green;
+    display:flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+.message-box .alert{
+    width:100%;
+}
+.message-box .form-field{
+    width:100%;
+}
+.errorlist li{
+    list-style-type: none;
+    color:red;
+}
+
+.user-info .avatar{
+    border-radius:50%;
+    height: 150px;
+    width:150px;
+    overflow: hidden;
+}
+
+.user-info .avatar img{
+    height: 150px;
+    width:150px;
+}
+
+.form-field .user-info{
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.form-field h1{
+    margin-bottom: 5px;
+}
+
+.form-field p button{
+    color:black;
+    background-color: lightgray;
+    border:none;
+    padding:5px 5px;
+}
